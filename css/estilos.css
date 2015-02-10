@@ -1,0 +1,475 @@
+
+article
+{
+	background: #FFF;
+	box-shadow: rgba(0,0,0,0.5) 0px 1px 10px;
+	text-align: center;
+}
+	article a
+	{
+		text-decoration: none;
+		text-align: center;
+		color: black;
+		padding: 10px;
+		border: 1px solid #D3D3D3;
+		display: inline-block;
+		margin: 0.5em;
+		border-radius: 5px;
+	}
+	article a:hover
+	{
+		background: #D63B37;
+		color: white;
+	}
+body
+{
+	background: #FAFAFA;
+	font-family: arial, helvetica, sans-serif;
+}
+fieldset
+{
+	margin: 0.5em;
+	padding: 0.1em;
+}
+footer
+{
+	background: #313232;
+	color: white;
+	font-size: 30px;
+	width: 100%;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	box-shadow: rgba(0,0,0,0.5) -1px -1px 10px;
+  z-index: 10;
+
+
+}
+	footer a
+	{
+		text-decoration: none;
+		color: white;
+	}
+	footer p
+	{
+		margin: 0;
+		text-align: center;
+		color: white;
+	}
+header
+{
+	margin: 0;
+	font-size: 16px;
+	background: #313232;
+}
+
+	header figure
+	{
+		position: absolute;
+		margin:0;
+	}
+	header h1
+	{
+	text-align: center;
+	}
+	header img
+	{
+		width: 40px;
+		display: none;
+	}
+h1
+{
+	padding:0.2em 0; 
+	margin: 0 0 0 27px;
+	position: relative;
+	color: white;
+	font-size: 22px;
+	margin-left: 0;
+}
+h2
+{
+	text-align: center;
+	margin: 0 ;
+}
+
+legend
+{
+	padding: 0.2em;
+	margin: 0.2em;
+}
+section .info
+{
+	margin: 0.5em;
+}
+	section .info_somos
+	{
+		margin: 0.5em;
+	}
+	section #imagen_item
+	{
+		margin: 0;
+	}
+	section #imagen_item img
+	{
+		width: 100%;
+	}
+	section .imagen_servicio
+	{
+		margin: 0;
+	}
+	section .imagen_servicio img
+	{
+		width: 98%;
+	}
+nav
+{
+	position: relative;
+}
+	nav #linea
+	{
+ 		background: #D63B37;
+ 		padding: 2.5px;
+	}
+	nav ul
+	{
+		display: none;
+		float: right;
+		margin: -28px 0 -30px 0;
+		padding: 0;
+	}
+	nav ul li
+	{	
+		display: inline-block;
+		background: #313232;
+	}
+	nav ul li a
+	{
+		padding: 0.2em 0.3em 0.7em 0.2em;
+		text-decoration: none;
+		color: white;
+		transition:0.5s;
+	}
+	nav ul li a:hover
+	{
+		background: #D63B37;
+	}
+p
+{
+	color: #777;
+	margin: 0.5em;
+	text-align: justify;
+}
+.campo
+{
+	margin: 0.5em;
+	margin-right: auto;
+	margin-left:auto;
+	padding: 0.5em;
+	display: block;
+	width: 80%;
+}
+.enviar
+{
+	margin: 0.5em;
+	margin-right: auto;
+	margin-left:auto;
+	padding: 0.5em;
+	display: block;
+}
+.galeria
+{
+	text-align: center;
+}
+.galeria img
+	{
+		margin: 2px;
+		border-radius: 5px;
+		width: 100%;
+		padding: 0.1em;
+	}
+
+.info figure
+{
+	margin: 0.5em 0 0 0;
+}
+.info img
+{
+	display: block;
+	padding: 0.3em 0 0 0;
+	margin: 0.3em;
+    margin-left: auto;
+    margin-right: auto;
+	border-radius: 1em;
+}
+.info_somos figure
+{
+	margin: 0.5em 0 0 0;
+}
+.info_somos img
+{
+	display: block;
+	padding: 0.3em 0 0 0;
+	margin: 0.3em;
+    margin-left: auto;
+    margin-right: auto;
+	border-radius: 1em;
+}
+.formulario
+{
+	height: 390px;
+}
+.menu-icono
+{
+	text-decoration: none;
+
+}
+
+#imagen_item
+	{
+		display: none;
+	}
+/*menu movil*/
+.nav_movil
+{
+	display:list-item ;
+}
+.nav_movil ul
+{		
+	font-size: 14px;
+	position: absolute;
+	display: block;
+	padding: 0.7em 0 0 0.5em;
+	margin: -32px 0 -30px 0;
+}
+.nav_movil ul li a:hover
+{
+	background: #D63B37;
+}
+.nav_movil ul a:hover
+{
+	background: #D63B37;
+}
+.p_somos
+{
+	color: #777;
+	margin: 0.5em 0.5em 4em 0.5em;
+	text-align: justify;
+}
+.portada
+{
+	display: none;
+}
+.separacion
+{
+	padding: 0 0 40px 0;
+}
+.separacion-galeria
+{
+	padding: 0 0 50px 0;
+}
+
+#back_to_camera {
+			clear: both;
+			display: block;
+			height: 80px;
+			line-height: 40px;
+			padding: 20px;
+		}
+		.fluid_container {
+			margin: 0 auto;
+			max-width: 1000px;
+			width: 90%;
+		}
+/*fin menu movil*/
+@media screen and (min-width: 410px){
+	header
+	{
+		margin: 0;
+	}
+	header img
+	{
+		display: inline-block;
+	}
+	h1
+	{
+		margin:  0 0 15px 0;
+		padding: 0.2em 0;
+	}
+	nav ul
+	{
+			display: inline-table;
+	}
+	.nav_movil ul
+	{
+			display: none;
+	}
+	.portada
+{
+	display: block;
+	margin: 0;
+	margin-right: auto;
+	margin-left: auto;
+}
+}
+
+@media screen and (min-width: 475px){
+	header img
+	{
+		width: 87px;
+	}
+	h1
+	{
+		padding: 0.1em 0 0.6em 1.4em;
+		font-size: 32px;
+
+	}
+	.article_galeria
+	{
+		width: 48%;
+		display: inline-block;
+		margin: 3px 1px;
+	}
+	.article_galeria img
+	{
+    	opacity: 0.4;
+    	filter: alpha(opacity=40); /* For IE8 and earlier */
+	}
+	.article_galeria img:hover {
+    	opacity: 1.0;
+    	filter: alpha(opacity=100); /* For IE8 and earlier */
+	}
+	.galeria
+	{
+		margin: 0.1em 0px;
+	}
+	.galeria img
+	{
+		margin: 0px;
+		border-radius: 5px;
+		width: 97%;
+		padding: 0.3em;
+	}
+	#imagen_item
+	{
+		display: block;
+	}
+	.p_servicios
+	{
+		padding: 1em;
+	}
+	.section_galeria
+	{
+		display: inline-block;;
+		text-align: center;
+	}
+	.portada
+{
+	display: block;
+	margin: 0;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+}
+.reset
+{
+	margin-bottom: 40px;
+}
+@media screen and (min-width: 800px){
+	article p
+	{
+		height: 100px;
+	}
+	
+	.info
+	{
+		width: 48%;
+		display: block;
+		padding: 0.3em 0 0 0;
+		border-radius: 1em;
+		float: left;
+	}
+	.info_somos
+	{
+		display: block;
+		padding: 0.5em;
+		border-radius: 1em;
+		float: left;
+	}
+	h1
+	{
+		font-size: 50px;
+		margin: 0px;
+		padding: 0.1em 0 0.3em 1.4em;
+	}
+	section #imagen_item img 
+	{
+		height: 400px;
+	}
+	section .imagen_servicio img 
+	{
+		height: 200px;
+	}
+	.separacion
+	{
+		padding: 0 0 660px 0;
+	}
+	.a_servicio
+	{	
+		height: 650px;
+	}
+	.a_servicio2
+	{
+		height: 450px;
+	}
+	.contenido
+	{
+		text-align: center;
+
+	}
+	
+	.separacion_servicio
+	{
+		padding: 0 0 1200px 0;
+	}
+
+@media screen and (min-width: 1000px){
+	.contenido
+	{
+		margin-left: 2%;
+	}
+	
+	.info
+	{
+		width: 31%;
+		display: block;
+		padding: 0.3em 0 0 0;
+		border-radius: 1em;
+		float: left;
+	}
+	.a_servicio
+	{	
+		height: 800px;
+	}
+	.separacion
+	{
+		padding: 0 0 350px 0;
+	}
+	.separacion_somos
+	{
+		padding: 0 0 700px 0;
+	}
+	.portada
+{
+	display: block;
+	margin: 0;
+	margin-right: auto;
+	margin-left: auto;
+}
+	.separacion_servicio
+	{
+		padding: 0 0 900px 0;
+	}
+	
+@media screen and (max-width: 1001px){
+}

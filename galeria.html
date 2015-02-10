@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8" />
+	<meta name="description" content="" />
+	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+	<title>Todo Escombros: Galeria de imagenes</title>
+	<link rel="stylesheet" href="css/normalize.css" />
+ 	<link rel="stylesheet" href="css/estilos.css" />
+ 	<link rel="stylesheet" href="css/style.css" /> 
+ 	<link rel="shortcut icon" href="imagenes/favicon.ico" type="image/x-icon" />
+	<link rel="icon" href="imagenes/favicon.ico" type="image/x-icon" />
+	       <!-- least.js 2 CSS file -->
+        <link href="src/css/least.min.css" rel="stylesheet" />
+
+</head>
+<body>
+	<header>
+		<figure id="logo">
+			<img src="imagenes/logo1.png" />
+ 		</figure>
+				<h1>TODOESCOMBROS.CL</h1>
+
+ 		<!-- MENU -->
+ 			<nav class="nav_movil">
+				<ul>
+					<li><a href="index.html">INICIO</a></li>
+					<li><a href="somos.html">SOMOS</a></li>
+					<li><a href="servicios.html">SERVICIOS</a></li>
+					<li><a href="contacto.html">CONTACTO</a></li>
+				</ul>
+			</nav>
+ 		<!-- MENU FIN -->
+
+		<nav id="nav_des">
+			<ul>
+				<li><a href="index.html">INICIO</a></li>
+				<li><a href="somos.html">SOMOS</a></li>
+				<li><a href="servicios.html">SERVICIOS</a></li>
+				<li><a href="galeria.html">GALERIA</a></li>
+				<li><a href="contacto.html">CONTACTO</a></li>
+			</ul>
+			<div id="linea"> </div>		
+		</nav>
+	</header>
+	
+	<section>
+ <!-- Least Gallery -->
+        <section id="least">
+            
+            <!-- Least Gallery: Fullscreen Preview -->
+            <div class="least-preview"></div>
+            
+            <!-- Least Gallery: Thumbnails -->
+            <ul class="least-gallery">
+                <!-- 1 || Element with data-caption ||-->
+                <li>
+                    <a href="imagenes/galeria/img_01.jpg" title="" data-subtitle="todoescombros.cl" data-caption="">
+                        <img src="imagenes/galeria/img_01.jpg" alt="" />
+                    </a>
+                </li>
+                
+                <!-- 2 || Element with data-caption as href-attribute ||-->
+                <li>
+                    <a href="imagenes/galeria/img_02.jpg" title="" data-subtitle="todoescombros.cl" data-caption="">
+                        <img src="imagenes/galeria/img_02.jpg" alt="Alt Image Text" />
+                    </a>
+                </li>
+                
+                <!-- 3 -->
+                <li>
+                    <a href="imagenes/galeria/img_03.jpg" title="" data-subtitle="todoescombros.cl">
+                        <img src="imagenes/galeria/img_03.jpg" alt="Alt Image Text" />
+                    </a>
+                </li>
+
+                <!-- 4 -->
+                <li>
+                    <a href="imagenes/galeria/img_04.jpg" title="todoescombros.cl" data-subtitle="todoescombros.cl">
+                        <img src="imagenes/galeria/img_04.jpg" alt="Alt Image Text" />
+                    </a>
+                </li>
+
+                <!-- 5 -->
+                <li>
+                    <a href="imagenes/galeria/img_05.jpg" title="todoescombros.cl" data-subtitle="todoescombros.cl">
+                        <img src="imagenes/galeria/img_05.jpg" alt="Alt Image Text" />
+                    </a>
+                </li>
+
+                <!-- 6 -->
+                <li>
+                    <a href="imagenes/galeria/img_06.jpg" title="todoescombros.cl" data-subtitle="todoescombros.cl">
+                        <img src="imagenes/galeria/img_06.jpg" alt="Alt Image Text" />
+                    </a>
+                </li>
+
+                <!-- 7 -->
+                <li>
+                    <a href="imagenes/galeria/img_07.jpg" title="todoescombros.cl" data-subtitle="todoescombros.cl">
+                        <img src="imagenes/galeria/img_07.jpg" alt="Alt Image Text" />
+                    </a>
+                </li>
+
+                <!-- 8 -->
+                <li>
+                    <a href="imagenes/galeria/img_08.jpg" title="todoescombros.cl" data-subtitle="todoescombros.cl">
+                        <img src="imagenes/galeria/img_08.jpg" alt="Alt Image Text" />
+                    </a>
+                </li>
+
+                <!-- 9 -->
+                <li>
+                    <a href="imagenes/galeria/img_09.jpg" title="todoescombros.cl" data-subtitle="todoescombros.cl">
+                        <img src="imagenes/galeria/img_09.jpg" alt="Alt Image Text" />
+                    </a>
+                </li>
+
+                <!-- 10 -->
+                <li>
+                    <a href="imagenes/galeria/img_10.jpg" title="todoescombros.cl" data-subtitle="todoescombros.cl">
+                        <img src="imagenes/galeria/img_10.jpg" alt="Alt Image Text" />
+                    </a>
+                </li>
+                <!-- 11 -->
+                <li>
+                    <a href="imagenes/galeria/img_11.jpg" title="todoescombros.cl" data-subtitle="todoescombros.cl">
+                        <img src="imagenes/galeria/img_11.jpg" alt="Alt Image Text" />
+                    </a>
+                </li>
+                <!-- 12 -->
+                <li>
+                    <a href="imagenes/galeria/img_12.jpg" title="todoescombros.cl" data-subtitle="todoescombros.cl">
+                        <img src="imagenes/galeria/img_12.jpg" alt="Alt Image Text" />
+                    </a>
+                </li>
+            </ul>
+
+        </section>
+        <!-- Least Gallery end -->
+
+        <!-- jQuery library -->
+        <script src="src/js/libs/jquery/2.0.2/jquery.min.js"></script>
+        <!-- least.js library -->
+        <script src="src/js/libs/least/least.min.js"></script>
+
+        <script>
+            $(document).ready(function(){
+                $('.least-gallery').least();
+            });
+        </script>
+</section>
+		<div class="separacion-galeria"></div>
+			</section>
+		<footer>		
+			<p id="p_fono" class="icon-phone">98284430</p>
+		</footer>
+	<script type="text/javascript" src="js/prefixfree.js"></script>
+</body>
+</html>
