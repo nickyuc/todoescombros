@@ -2,7 +2,7 @@
 if(isset($_POST['email'])) {
      
     // CHANGE THE TWO LINES BELOW
-    $email_to = "ncabrerac@icloud.com";
+    $email_to = "info@todoescombros.cl";
      
     $email_subject = "Contacto desde todoescombros.cl";
      
@@ -71,9 +71,68 @@ $headers = 'From: '.$email_from."\r\n".
 ?>
  
 <!-- place your own success html below -->
- 
-Gracias por su mensaje. Nos pondremos en contacto con usted muy pronto.
- <meta http-equiv="Refresh" content="5;url=index.html">
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>todoescombros.cl</title>
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/estilos.css" />
+  <link rel="stylesheet" href="css/styles.css" /> 
+  <link rel="shortcut icon" href="imagenes/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="imagenes/favicon.ico" type="image/x-icon" />
+ <meta http-equiv="Refresh" content="20;url=index.html">
+
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <figure id="logo">
+      <img src="imagenes/logo1.png" />
+    </figure> 
+    <h1>TODOESCOMBROS.CL</h1>
+
+    <!-- MENU -->
+      <nav class="nav_movil">
+        <ul>
+          <li><a href="index.html">INICIO</a></li>
+          <li><a href="servicios.html">SERVICIOS</a></li>
+          <li><a href="galeria.html">GALERIA</a></li>
+          <li><a href="contacto.html">CONTACTO</a></li>
+        </ul>
+      </nav>
+    <!-- MENU FIN -->
+
+    <nav id="nav_des">
+      <ul>
+        <li><a href="index.html">INICIO</a></li>
+        <li><a href="somos.html">SOMOS</a></li>
+        <li><a href="servicios.html">SERVICIOS</a></li>
+        <li><a href="galeria.html">GALERIA</a></li>
+        <li><a href="contacto.html">CONTACTO</a></li>
+      </ul>
+      <div id="linea"> </div>   
+    </nav>
+  </header>
+  <!-- SECTION -->
+  <section class="contenido">
+    <article class="info_somos">
+      <h2>mensaje enviado</h2>
+      <p class="p_somos">Gracias por su mensaje. Nos pondremos en contacto con usted muy pronto.
+</p>
+
+    </article>
+      <div class="separacion separacion_somos"> </div>    
+
+  </section>
+
+  <footer>  
+  <p id="p_fono" class="icon-phone">98284430</p>
+
+  </footer>
+  <script type="text/javascript" src="js/prefixfree.js"></script>
+</body>
+</html>
 
 <?php
 }
