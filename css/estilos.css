@@ -21,6 +21,11 @@ article
 		background: #D63B37;
 		color: white;
 	}
+aside
+{
+	width: 40%;
+	position: left;
+}	
 body
 {
 	background: #FAFAFA;
@@ -56,6 +61,12 @@ footer
 		text-align: center;
 		color: white;
 	}
+form
+{	
+	float: left;
+	margin-right: auto;
+	margin-left: auto;
+}
 header
 {
 	margin: 0;
@@ -159,6 +170,10 @@ p
 	margin: 0.5em;
 	text-align: justify;
 }
+.article__formulario
+{
+
+}
 .campo
 {
 	margin: 0.5em;
@@ -216,7 +231,9 @@ p
 }
 .formulario
 {
-	height: 390px;
+	margin-right: auto;
+	margin-left: auto;
+	float: 
 }
 .menu-icono
 {
