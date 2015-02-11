@@ -5,26 +5,10 @@ article
 	box-shadow: rgba(0,0,0,0.5) 0px 1px 10px;
 	text-align: center;
 }
-	article a
-	{
-		text-decoration: none;
-		text-align: center;
-		color: black;
-		padding: 10px;
-		border: 1px solid #D3D3D3;
-		display: inline-block;
-		margin: 0.5em;
-		border-radius: 5px;
-	}
-	article a:hover
-	{
-		background: #D63B37;
-		color: white;
-	}
 aside
 {
-	width: 40%;
-	position: left;
+	width: 100%;
+	text-align: center;
 }	
 body
 {
@@ -170,10 +154,24 @@ p
 	margin: 0.5em;
 	text-align: justify;
 }
-.article__formulario
-{
+.boton
+	{	background: white;
+		text-decoration: none;
+		text-align: center;
+		color: black;
+		padding: 10px;
+		border: 1px solid #D3D3D3;
+		display: inline-block;
+		margin: 0.5em;
+		border-radius: 5px;
+		border-style: groove;
 
-}
+	}
+.boton:hover
+	{
+		background: #D63B37;
+		color: white;
+	}	
 .campo
 {
 	margin: 0.5em;
@@ -182,6 +180,7 @@ p
 	padding: 0.5em;
 	display: block;
 	width: 80%;
+	float: left;
 }
 .enviar
 {
@@ -202,7 +201,10 @@ p
 		width: 100%;
 		padding: 0.1em;
 	}
-
+.h4--contacto
+{
+	margin-bottom: 0px;
+}
 .info figure
 {
 	margin: 0.5em 0 0 0;
@@ -229,11 +231,19 @@ p
     margin-right: auto;
 	border-radius: 1em;
 }
-.formulario
+#formulario
 {
+	text-align: center;
+}
+#formulario input, textarea
+{
+	border-radius: 3px;
+	border-style: groove;
+	width: 80%;
+	margin-top:1em;
+	margin-bottom: 1em;
 	margin-right: auto;
 	margin-left: auto;
-	float: 
 }
 .menu-icono
 {
@@ -248,7 +258,7 @@ p
 /*menu movil*/
 .nav_movil
 {
-	display:list-item ;
+	display: inline-block;
 }
 .nav_movil ul
 {		
@@ -265,6 +275,12 @@ p
 .nav_movil ul a:hover
 {
 	background: #D63B37;
+}
+.p--contacto
+{
+	color: #777;
+	margin: 0.5em;
+	text-align: center;
 }
 .p_somos
 {
@@ -413,6 +429,14 @@ p
 		border-radius: 1em;
 		float: left;
 	}
+	.formula
+	{
+		width: 95%;
+		display: block;
+		padding: 15px;
+		border-radius: 1em;
+		float: none;
+	}
 	h1
 	{
 		font-size: 50px;
@@ -444,7 +468,12 @@ p
 		text-align: center;
 
 	}
-	
+	.p--contacto
+{
+
+	height:auto;
+
+}
 	.separacion_servicio
 	{
 		padding: 0 0 1200px 0;
@@ -463,6 +492,14 @@ p
 		padding: 0.3em 0 0 0;
 		border-radius: 1em;
 		float: left;
+	}
+	.formula
+	{
+		width: 95%;
+		display: block;
+		padding: 1em;
+		border-radius: 1em;
+		float: none;
 	}
 	.a_servicio
 	{	
@@ -488,5 +525,24 @@ p
 		padding: 0 0 900px 0;
 	}
 	
-@media screen and (max-width: 1001px){
+@media screen and (min-width: 1002px){
+body{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+
 }
+footer{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+
+}
+}
+
+
+
+
+
+
+

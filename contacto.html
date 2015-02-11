@@ -1,9 +1,3 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE HTML>
 <html>
 	<head>
@@ -34,7 +28,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</ul>
 		</nav>
 		<!--MENU fin-->
-		<!--<a href="" class="icon-menu menu-icono" id="js-menu"></a> -->
+
 		<nav class="nav_des">
 			<ul>
 				<li><a href="index.html">INICIO</a></li>
@@ -48,33 +42,32 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</header>
 			
 	<section>
-	<article class="info formulario">				  
-		<form name="htmlform" method="post" action="html_form_send.php">
-			<label class="formulario" for="first_name">Nombre :</label>
-			<input class="formulario" type="text" name="first_name" maxlength="50" size="30">
-	  		
-	  		<label class="formulario" for="last_name">Comuna :</label>
-			<input  type="text" name="last_name" maxlength="50" size="30">
+	<article class="info formula">				  
+		<form name="htmlform" method="post" action="html_form_send.php" id="formulario">
+
+			<input  type="text" name="first_name" placeholder="Nombre y Apellido" required />
+
+			<input  type="text" name="last_name" placeholder="La Florida" required />
   			
-  			<label for="email">Email :</label>
-  			<input  type="text" name="email" maxlength="80" size="30">
+  			<input  type="email" name="email" placeholder="por@ejemplo.com" required>
   			
-  			<label for="telephone">Telefono:</label>
-  			<input  type="text" name="telephone" maxlength="30" size="30">
+  			<input  type="tel" name="telephone" placeholder="9828 4430" required>
   			
-  			<label for="comments">Comentario :</label>
-  			<textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+  			<textarea  name="comments" maxlength="1000" cols="25" rows="6" placeholder="Escribe aquí tus comentarios, dudas y/o cotizaciones" required></textarea>
   			
-  			<input type="submit" value="enviar">  
+  			<input type="submit" value="enviar" class="boton">  
 		</form>
 			<aside>
-				<h3>CONTACTO DIRECTO :</h3>
-			  	<p>Celular: +569-98284430</p>
-			   	<p>Email: <span>info@todoescombros.cl</span></p>				   		
+				<h4 class="h4--contacto">CONTACTO DIRECTO :</h4>
+			  	<p class="p--contacto">Celular: +569-98284430</p>
+			   	<p class="p--contacto">Email: <span>info@todoescombros.cl</span></p>				   		
 			</aside>
 	</article>
 
-<footer></footer>		 	
-	</body>
+<footer>	
+	<p id="p_fono" class="icon-phone">98284430</p>
+
+	</footer>
+	<script type="text/javascript" src="js/prefixfree.js"></script>	</body>
 </html>
 
