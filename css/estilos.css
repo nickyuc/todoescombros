@@ -526,18 +526,32 @@ p
 	}
 	
 @media screen and (min-width: 1002px){
-body{
-	margin-left: auto;
-	margin-right: auto;
-	width: 1000px;
+	body
+	{
+		margin-left: auto;
+		margin-right: auto;
+		width: 1000px;
+	}
+	footer
+	{
+		margin-left: auto;
+		margin-right: auto;
+		width: 1000px;
 
-}
-footer{
-	margin-left: auto;
-	margin-right: auto;
-	width: 1000px;
+	}
+	header
+	{
+		margin-left: auto;
+		margin-right: auto;
+		width: 1000px;
+	}
+	section
+	{
+		width: 995px; 
+		margin-left: auto;
+		margin-right: auto;
+	}
 
-}
 }
 
 
